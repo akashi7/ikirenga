@@ -1,0 +1,188 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Open+Sans:wght@300&display=swap');
+
+:root {
+   --background-color:rgba(204,153,51,255)
+}
+
+body {
+  background-color:#f5f6f5;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+*{
+	box-sizing: border-box;
+}
+.opacity{
+  opacity:0.7;
+}
+.trends{
+  background-image: url('https://res.cloudinary.com/amatunda/image/upload/v1696176929/6A6A8471_osqfw4.jpg'),url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqKuX-XvHitZlMQRfq-OKu5X-GspVpNCY8SHLtg_is5g&s');
+  background-size:cover;
+  background-position: top center;
+  background-blend-mode:hard-light;
+  margin-top:100px;
+}
+.bg-trend{
+  background-size: cover;
+  background-position:top center;
+}
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container-section {
+	height: 100vh;
+	/* set width based on sections */
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: hidden;
+}
+.ctivities{
+	overflow-x: hidden;
+}
+.horizontal-section {
+
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100%;
+    margin-top:58px;
+	display: flex;
+	align-items: center;
+}
+.slide-container {
+
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100%;
+    margin-top:58px;
+}
+
+.swiper {
+	width: 100%;
+	height: 100vh;
+  }
+  
+  .swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	/* Center slide text vertically */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-size: cover;
+	
+  }
+  
+  .swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+  }
+  .slide-content-holder{
+	 width:100%;
+	 height:100%;
+	 padding:5px;
+  }
+.font-style{
+	font-family: 'Noto Sans', sans-serif !important;
+	font-size: 16px !important;
+}
+@media (max-width:500px)
+{
+	 .font-style{
+		 font-size:12px !important;
+	 }
+}
+.swiper-slide:nth-child(1) {
+	background-image: url("https://res.cloudinary.com/amatunda/image/upload/v1703660484/WhatsApp_Image_2023-12-26_at_23.24.55_hrp94t.jpg");
+}
+
+.swiper-slide:nth-child(2) {
+	background-image: url("https://res.cloudinary.com/amatunda/image/upload/v1702830420/down_zzgz3f.jpg");
+}
+
+.swiper-slide:nth-child(3) {
+	background-image: url("https://www.explorerwandatours.com/wp-content/uploads/2019/08/Kigali.jpg");
+}
+
+.swiper-slide:nth-child(4) {
+	background-image: url("https://res.cloudinary.com/amatunda/image/upload/v1700337495/c_clhrae.jpg");
+}
+
+.swiper-slide:nth-child(5) {
+	background-image: url("https://res.cloudinary.com/amatunda/image/upload/v1696227565/6A6A8471_qwmpug.jpg");
+}
+.heading-container{
+   width: 100%;
+   height:100%;
+   opacity:0.7;
+   display:flex;
+   align-items:center;
+   background:black;
+   font-family: 'Noto Sans', sans-serif;
+   font-size: 1px;
+}
+
+.heading {
+  width:50%;
+	font-size: 12px;
+  padding:10px;
+	font-weight: 300;
+	color: white;
+	letter-spacing: 10px;
+  opacity:0;
+	text-transform: uppercase;
+}
+.sh-one{
+	/* opacity:0; */
+}
+.image-section{
+	background-image: url('https://res.cloudinary.com/amatunda/image/upload/v1700387889/twigire-header_gkcn4d.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+/* 
+festival  */
+
+#festival-container {
+	height: 100vh;
+	/* set width based on sections */
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+
+}
+.swiper-button-prev,.swiper-button-next{
+   color:white;
+   opacity:0.5;
+}
+.horizontal-sections {
+
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100%;
+  margin-top:58px;
+	display: flex;
+	align-items: center;
+}
+.horizontal-sections:nth-child(1)
+{
+	background-image: url('https://res.cloudinary.com/amatunda/image/upload/v1700477240/L55B2890_omkguw.jpg');
+}
